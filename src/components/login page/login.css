@@ -1,0 +1,38 @@
+.div{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.loginform{
+    margin: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65vh;
+    height: 400px;
+    color: white;
+    opacity: 90%;
+    border-radius: 15px;
+}
+
+
+.email, .password{
+    font-size: 20px;
+}
+
+.text{
+    font-size: 10px;
+}
+
+.login{
+    border-radius: 15px;
+    font-style: bold;
+    font-size: 30px;
+    background-color: red;
+    color: black;
+    width: 10vh;
+}
