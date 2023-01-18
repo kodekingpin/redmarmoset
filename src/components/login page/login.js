@@ -13,30 +13,30 @@ const LoginPage = () => {
 
   return (
     <div>
-        <form onSubmit={handleSubmit} className="loginform">
+      <form onSubmit={handleSubmit} className="loginform">
         <label>
-            <input
+          <input
             className='email'
             type="email"
             placeholder='Enter Email'
             value={username}
             onChange={(event) => setUsername(event.target.value)}
-            />
+          />
         </label>
         <label>
-            <input
+          <input
             className='password'
             type="password"
             placeholder='Enter Password'
             value={password}
             onChange={(event) => setPassword(event.target.value)}
-            />
+          />
         </label>
         <b className='text'>Dont have an account? Create one</b>
         <b className='text'>I forgot my password</b>
         <br />
         <button className='login' type="submit">Login</button>
-        </form>
+      </form>
     </div>
   );
 };

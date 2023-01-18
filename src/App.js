@@ -1,15 +1,18 @@
 import './App.css';
-import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
-import LoginPage from './components/login page/login';
-import Home from './components/home page/home';
+import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
+import LoginPage from './components/login page/login.js';
+import Home from './components/home page/home.js';
+import NavBar from "./components/nav bar/navbar.js"
+
 
 
 export default function App() {
   return (
     <BrowserRouter>
+      <NavBar />
       <Routes>
-        <Route path='/' element={<Home />}/>
-        <Route path='/login' element={<LoginPage />}/>
+        <Route path='/' element={<Home />} />
+        <Route path='/login' element={<LoginPage />} />
       </Routes>
     </BrowserRouter>
   );

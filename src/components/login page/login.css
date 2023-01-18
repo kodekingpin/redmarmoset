@@ -36,3 +36,8 @@
     color: black;
     width: 10vh;
 }
+
+.login:hover {
+  opacity: 0.5;
+}
+
