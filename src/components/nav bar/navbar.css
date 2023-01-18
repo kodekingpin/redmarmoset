@@ -17,7 +17,7 @@ body {
 
 .navbar {
   height: 200px;
-  background-color: #6e6e6e;
+  background-color: #000000;
   position: relative;
 }
 
@@ -40,12 +40,12 @@ body {
 .nav-elements ul a {
   font-size: 16px;
   font-weight: 400;
-  color: #2f234f;
+  color: #ff0000;
   text-decoration: none;
 }
 
 .nav-elements ul a.active {
-  color: #574c4c;
+  color: #920000;
   font-weight: 500;
   position: relative;
 }

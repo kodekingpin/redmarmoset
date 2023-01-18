@@ -1,12 +1,15 @@
-.div{
+.mainlogin{
     display: flex;
     flex-direction: row;
+    background-color: rgb(15, 15, 15);
 }
 
 
 
 .loginform{
     margin: auto;
+    margin-top: 10vh;
+    margin-bottom: 26vh;
     background-color: black;
     display: flex;
     flex-direction: column;

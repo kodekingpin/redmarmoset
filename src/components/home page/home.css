@@ -1,3 +1,25 @@
+.app{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(15, 15, 15);
+}
+
 .main{
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
   color: white;
+}
+
+.div, h1{
+  color: red;
+}
+
+.left{
+  max-width: 75vh;
+}
+
+.right{
+  max-width: 75vh;
 }

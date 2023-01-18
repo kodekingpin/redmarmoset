@@ -12,7 +12,7 @@ const LoginPage = () => {
   };
 
   return (
-    <div>
+    <div className='mainlogin'>
       <form onSubmit={handleSubmit} className="loginform">
         <label>
           <input
