@@ -1,5 +1,49 @@
 .mainforum{
     background-color: rgb(15, 15, 15);
-    height: 78.5vh;
+    height: auto;
     color: red;
+    display: flex;
+    flex-direction: column;
+}
+
+.forumback{
+    background-color: rgb(15, 15, 15);
+    height: auto;
+}
+
+.topbar{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+
+.searchbar{
+    width: 30%;
+}
+
+.postsort{
+    display: flex;
+    flex-direction: row;
+}
+
+.bottomarea{
+    display: flex;
+    flex-direction: row;
+}
+
+.tags{
+    display: flex;
+    flex-direction: column;
+}
+
+.rightside{
+    display: flex;
+    flex-direction: column;
+}
+
+.statnames{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
 }

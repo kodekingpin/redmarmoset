@@ -34,10 +34,11 @@
 .login{
     border-radius: 15px;
     font-style: bold;
-    font-size: 30px;
+    font-size: 100%;
     background-color: red;
     color: black;
-    width: 10vh;
+    width: 15vh;
+    height: 5vh;
 }
 
 .login:hover {
