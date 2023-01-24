@@ -1,4 +1,5 @@
 import "./forum.css"
+import { NavLink } from "react-router-dom"
 
 export default function Forum() {
     return (
@@ -10,7 +11,9 @@ export default function Forum() {
                         <h3>Top</h3>
                     </div>
                     <input placeholder="Search..." type="search" className="searchbar"></input>
-                    <button>Create Post</button>
+                    <NavLink to="/createpost">
+                        <button>Create Post</button>
+                    </NavLink>
                 </div>
                 <div className="bottomarea">
                     <div className="tagsection">
