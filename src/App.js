@@ -4,6 +4,7 @@ import LoginPage from './components/login page/login.js';
 import Home from './components/home page/home.js';
 import NavBar from "./components/nav bar/navbar.js"
 import Forum from './components/forum page/forum';
+import SignUp from './components/sign up page/signup';
 
 
 
@@ -15,6 +16,7 @@ export default function App() {
         <Route path='/' element={<Home />} />
         <Route path='/forum' element={<Forum />} />
         <Route path='/login' element={<LoginPage />} />
+        <Route path='/signup' element={<SignUp />} />
       </Routes>
     </BrowserRouter>
   );

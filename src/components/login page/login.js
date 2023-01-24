@@ -1,5 +1,7 @@
 import './login.css';
 import React, { useState } from 'react';
+import SignUp from '../sign up page/signup';
+import { Link } from 'react-router-dom';
 
 const LoginPage = () => {
   const [username, setUsername] = useState('');
@@ -32,7 +34,7 @@ const LoginPage = () => {
             onChange={(event) => setPassword(event.target.value)}
           />
         </label>
-        <b className='text'>Dont have an account? Create one</b>
+        <b className='text'>Dont have an account? <Link to="/signup">Create one</Link></b>
         <b className='text'>I forgot my password</b>
         <br />
         <button className='login' type="submit">Login</button>
