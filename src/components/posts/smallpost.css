@@ -1,0 +1,37 @@
+.minipost{
+  background-color: #404040;
+  display: flex;
+  flex-direction: row;
+  width: 160vh;
+  border-radius: 50px;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title{
+  padding-right: 30vh;
+}
+
+.lefttext{
+  display: flex;
+  flex-direction: row;
+}
+
+.stats{
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+}
+
+.stat1, .stat2{
+  margin-right: 40px;
+}
+
+.stat3{
+  margin-right: 20px;
+}
+
+.author{
+  margin-right: 30px;
+}

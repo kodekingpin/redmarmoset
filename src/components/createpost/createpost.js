@@ -8,8 +8,12 @@ export default function CreatePost() {
                 <button className="publishbutton">Publish</button>
             </div>
             <div className="bottombar">
+              <div className="usertags">
+              </div>
+              <div className="bottombar2">  
                 <input className="titleinput" placeholder="Title"/>
                 <textarea className="textinput" placeholder="Discuss your topic here"/>
+              </div>
             </div>
         </div>
     )
