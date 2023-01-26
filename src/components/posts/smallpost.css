@@ -9,6 +9,10 @@
   justify-content: space-between;
 }
 
+.minipost:hover{
+  opacity: 0.5;
+}
+
 .title{
   padding-right: 30vh;
 }
