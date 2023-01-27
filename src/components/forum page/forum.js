@@ -13,7 +13,7 @@ export default function Forum() {
           </div>
           <input placeholder="Search..." type="search" className="searchbar"></input>
           <NavLink to="/createpost">
-            <button>Create Post</button>
+            <button className="createbutton">Create Post</button>
           </NavLink>
         </div>
         <div className="bottomarea">
@@ -46,13 +46,12 @@ export default function Forum() {
               <h4 className="stat22">Replies</h4>
               <h4 className="stat33">Views</h4>
             </div>
-            <SmallPost />
-            <SmallPost />
-            <SmallPost />
-            <SmallPost />
-            <SmallPost />
             <div className="posts">
-
+            <SmallPost />
+            <SmallPost />
+            <SmallPost />
+            <SmallPost />
+            <SmallPost />
             </div>
           </div>
         </div>

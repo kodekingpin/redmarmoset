@@ -23,11 +23,15 @@
 }
 
 
-.username, .email, .password, .confirmpassword{
+.username1, .email1, .password1, .confirmpassword1{
     font-size: 25px;
     height: 5vh;
-    width: 40vh;
+    width: 20vw;
+    border-radius: 30px;
+    padding-left: 10px;
+    margin-bottom: 10px;
 }
+
 
 .text{
     font-size: 15px;

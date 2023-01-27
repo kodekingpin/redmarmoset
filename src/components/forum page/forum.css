@@ -76,3 +76,17 @@
 .toptab:hover, .latesttab:hover{
   opacity: 0.5;
 }
+
+.createbutton{
+  height: 40px;
+  width: 100px;
+  font-size: 15px;
+  margin-right: 80px;
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: red;
+}
+
+.createbutton:hover{
+  opacity: 0.5;
+}
